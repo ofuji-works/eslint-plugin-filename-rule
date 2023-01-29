@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "lint": "eslint ./targets"
+    },
+    "devDependencies": {
+        "eslint": "^8.33.0"
+    }
+}

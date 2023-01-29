@@ -1,6 +1,6 @@
 {
   "name": "@ofuji-works/eslint-plugin-filename-rule",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "eslint rules for filename.",
   "main": "lib/rules/index.js",
   "files": [

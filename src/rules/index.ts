@@ -1,6 +1,6 @@
 import filenameNamingRules from "./filename-naming-rules"
 
-export default {
+export = {
     rules: {
         'filename-naming-rules': filenameNamingRules,
     }

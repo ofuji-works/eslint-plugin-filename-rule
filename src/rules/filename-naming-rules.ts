@@ -15,7 +15,6 @@ const rule: Rule.RuleModule = {
                     const rule = option.patterns.join("|")
                     const regex = new RegExp(rule);
                     if (!regex.test(path.posix.basename(context.getFilename()))) {
-                        console.log("regex", regex);
                         context.report({
                             node,
                             message: "bad pattern filename",
